@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Pergunta from './Pergunta';
+import Pergunta from './perguntas';
 
 function Quiz() {
   const [opcoesSelecionadas, setOpcoesSelecionadas] = useState({});
@@ -76,4 +76,4 @@ function Quiz() {
   );
 }
 
-export default quiz
+export default Quiz
